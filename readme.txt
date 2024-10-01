@@ -55,3 +55,10 @@ This will make Composer do two things:
 
     Tip: If you are using git for your project, you probably want to add vendor in your .gitignore. You really don't want to add all of that third-party code to your versioned repository.
 
+
+
+Next: Commit your composer.lock file to version control
+Installing from composer.lock#
+If there is already a composer.lock file in the project folder, it means either you ran the update command before, or someone else on the project ran the update command and committed the composer.lock file to the project (which is good).
+So after fetching new changes from your VCS repository it is recommended to run a Composer install to make sure the vendor directory is up in sync with your composer.lock file.
+"php composer.phar install"
