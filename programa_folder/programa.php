@@ -1,7 +1,8 @@
 
 <?php
 
-require __DIR__ . '/../vendor/autoload.php';
+//require __DIR__ . '/../vendor/autoload.php'; // Si el crides des d'un altre projecte composer aquesta ruta no es correcte
+require __DIR__.'/../../../autoload.php';
 require __DIR__ . '/programa2.php';
 
 
@@ -14,4 +15,3 @@ function myMessage() {
 	echo first(1, "omg lol"); //returns omg lol;
 }
 
-myMessage();
