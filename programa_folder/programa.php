@@ -12,6 +12,6 @@ function myMessage() {
 	$log->pushHandler(new Monolog\Handler\StreamHandler('app.log', Monolog\Logger::WARNING));
 	$log->warning('Foo');
 
-	echo first(1, "omg looool"); //returns omg lol;
+	echo first(1, "omg looooooooooooooooooooooooooool"); //returns omg lol;
 }
 
