@@ -13,5 +13,6 @@ function myMessage() {
 	$log->warning('Foo');
 
 	echo first(1, "omg looooooooooooooooooooooooooool"); //returns omg lol;
+	echo first(1, "omg looooooooooooooooooooooooooool"); //returns omg lol;
 }
 
