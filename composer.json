@@ -1,8 +1,7 @@
 {
     "name": "francescroy/hello-world",	
     "require": {
-        "monolog/monolog": "3.0.*",
-        "elasticsearch/elasticsearch": "^8.15"
+        "monolog/monolog": "3.6.0"
     },
     "config": {
         "allow-plugins": {
