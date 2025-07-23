@@ -1,5 +1,8 @@
 
 
+CADA COP QUE VULGUI QUE UN ALTRE PROJECTE QUE USA AQUEST, PILLI ELS CANVIS HE DE FER UN NOU TAG! 1.1.2,1.1.3, etc
+
+-------------------------------------------------------------------------------------------------------------------------
 
 Composer is a tool for dependency management in PHP. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you.
 
@@ -64,22 +67,4 @@ So after fetching new changes from your VCS repository it is recommended to run 
 "php composer.phar install"
 
 
-Ara ja desde un altre projecte el puc usaaaaar!:
-
-{
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/francescroycampderros/composer_example"
-        }
-    ],
-    "require": {
-        "francescroy/hello-world": "1.0.0.x-dev"
-    },
-    "config": {
-        "allow-plugins": {
-            "php-http/discovery": true
-        }
-    }
-}
 
